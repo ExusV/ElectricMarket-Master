@@ -1,6 +1,6 @@
 # ElectricMarket-Master
 
-THIS IS NOT TO BE USED BY ANYONE, BUT THE DEVELOPERS FOR NOW!!!!!
+*THIS IS NOT TO BE USED BY ANYONE, BUT THE DEVELOPERS FOR NOW!!!!! *
 This is due to it having some heavy bugs, that need to be fixed.
 I made this when I was 12, uploaded when I was 13, cut me some slack.
 
