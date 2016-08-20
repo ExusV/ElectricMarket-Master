@@ -1,0 +1,335 @@
+body {
+/* Get a really nice background from http://gradientcreator.com/ if you dont like the one that I have selected. Or if you
+dont want a gradient background use background:url(/images/yourimage.jpg); */
+background: -webkit-linear-gradient(45deg, hsl(305, 99%, 71%) 0%, transparent 70%), -webkit-linear-gradient(135deg, hsl(233, 100%, 67%) 10%, transparent 80%), -webkit-linear-gradient(225deg, hsl(310, 98%, 72%) 10%, transparent 80%), -webkit-linear-gradient(315deg, hsl(217, 94%, 67%) 50%, transparent 100%); background: -ms-linear-gradient(45deg, hsl(305, 99%, 71%) 0%, transparent 70%), -ms-linear-gradient(135deg, hsl(233, 100%, 67%) 10%, transparent 80%), -ms-linear-gradient(225deg, hsl(310, 98%, 72%) 10%, transparent 80%), -ms-linear-gradient(315deg, hsl(217, 94%, 67%) 50%, transparent 100%); background: linear-gradient(45deg, hsl(305, 99%, 71%) 0%, transparent 70%), linear-gradient(135deg, hsl(233, 100%, 67%) 10%, transparent 80%), linear-gradient(225deg, hsl(310, 98%, 72%) 10%, transparent 80%), linear-gradient(315deg, hsl(217, 94%, 67%) 50%, transparent 100%);
+ margin-top:2%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+
+.sidebar {
+	position:absolute;
+	display:inline-block;
+	float:left;
+	  margin-left:2%;
+  margin-right:2%;
+	width:20%;
+	min-height:80%;
+	background-color:rgba(255,255,255,0.2);
+	border-radius:12px;
+	box-shadow:inset 0 0 1px rgba(255,255,255,.3);
+	color:white;
+	text-align:center;
+}
+
+.main {
+	display:inline-block;
+		  margin-left:24%;
+  margin-right:2%;
+	width:74%;
+	min-height:90%;
+	background-color:rgba(255,255,255,0.2);
+	border-radius:12px;
+	box-shadow:inset 0 0 1px rgba(255,255,255,.3);
+	color:white;
+	text-align:center;
+}
+
+.main h1 {
+	    color: white;
+	    font-weight:200;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.main .notification {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding: 15px 0px;
+    width:100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 0 -2px 2px rgba(0,0,0,0.05);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+    text-align: middle;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+}
+
+.main .script {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding: 7% 0px;
+    width:60%;
+    vertical-align: middle;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 0 -2px 2px rgba(0,0,0,0.05);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: middle;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+    border-radius:2px;
+}
+
+input[type="text"] {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding:14px 54px;
+    margin-left: auto;
+    border:none;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+    border-radius:3px;
+    color:white;
+    outline:none;
+}
+
+.file_button {
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding:15px 50px;
+    margin-left: auto;
+    border:none;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    background: rgba(0,200,0,0.4);
+    border-radius:3px;
+    color:white;
+    outline:none;
+}
+
+input[type="file"] {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding:14px 74px;
+    margin-left: auto;
+    border:none;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+    border-radius:3px;
+    color:white;
+    outline:none;
+}
+
+input[type="submit"] {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    padding:14px 74px;
+    margin-left: auto;
+    border:none;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    background: rgba(50,50,200,0.4);
+    border-radius:3px;
+    color:white;
+    outline:none;
+    -webkit-appearance: none;
+}
+
+textarea {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    width:60%;
+    height:27%;
+    margin-left: auto;
+    border:none;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+    border-radius:3px;
+    color:white;
+    outline:none;
+}
+
+input:disabled {
+    color: rgba(240,240,240,0.7);
+   text-align:center;  
+}
+
+::-webkit-input-placeholder {
+   color: rgba(240,240,240,0.7);
+   text-align:center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(240,240,240,0.7);
+      text-align:center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(240,240,240,0.7);
+      text-align:center;
+}
+
+:-ms-input-placeholder {  
+   color: rgba(240,240,240,0.7);
+      text-align:center;
+}
+
+
+.main text {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-weight: 200;
+}
+
+
+
+.circle {
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:2%;
+	width: 100px;
+	height: 100px;
+	border:1px solid white;
+	background-color:rgba(255,255,255,0);
+		box-shadow:inset 0 0 1px rgba(255,255,255,.3);
+	/* width and height can be anything, as long as they're equal */
+}
+
+name {
+	text-align:center;
+	font-size:30px;
+	font-weight:400;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.shcover {
+	padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow:  inset 0 -2px 2px rgba(0,0,0,0.05);
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 200;
+}
+
+subhead {
+		font-weight:100;
+	text-align:center;
+	font-size:25px;
+	font-weight:100;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.line {
+    background: rgba(0,0,0,0.1);
+    margin-left:auto;
+    margin-right:auto;
+	width:90%;
+	height:1px;
+	border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 0 -2px 2px rgba(0,0,0,0.05);
+
+}
+
+
+
+ul {
+}
+
+ul, li {
+	list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+}
+
+
+
+li {
+
+}
+
+.m {
+		font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 0 -2px 2px rgba(0,0,0,0.05);
+    margin: 1px 0;
+    line-height: 1.7;
+    text-align: left;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+}
+
+.t {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding: 15px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05);
+    margin: 1px 0;
+    line-height: 1.7;
+    text-align: left;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+}
+
+.b {
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 -2px 2px rgba(0,0,0,0.05);
+    margin: 1px 0;
+    line-height: 1.7;
+    text-align: left;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+}
+
+.minibtn {
+		text-align:center;
+		display:inline-block;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size:12;
+    text-decoration:none;
+    color:white;
+	    padding: 5px 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05), inset 0 -2px 2px rgba(0,0,0,0.05);
+    margin: 1px 0;
+    line-height: 1.7;
+    text-align: left;
+    font-weight: 200;
+    background: rgba(0,0,0,0.1);
+}
+
+ul a {
+	text-decoration:none;
+	color:white;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+
+.active {
+	background: rgba(28,216,210,0.4); /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(28,216,210,0.4) , rgba(147,237,199,0.4)); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(28,216,210,0.4) , rgba(147,237,199,0.4)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

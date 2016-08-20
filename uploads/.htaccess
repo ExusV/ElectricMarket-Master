@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Get out from here!"
+require valid-user
+AuthUserFile "/home/wafflez3/.htpasswds/public_html/Project SA/uploads/passwd"
