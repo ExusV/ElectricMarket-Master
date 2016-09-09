@@ -1,6 +1,6 @@
 # ElectricMarket-Master
 
-<h2><b>*THIS IS NOT TO BE USED BY ANYONE, BUT THE DEVELOPERS FOR NOW!!!!!*</b></h2><br>
+<h2><b>*This is not a release version! There are major bugs that need addressing. This is solely for anyone who wants to borrow the horrible source. A new more user friendly version is coming out in a few months (maybe...). Work has already been started on that, also if all goes to plan it should support 3rd party addons and themes.*</b></h2><br>
 This is due to it having some heavy bugs, that need to be fixed.
 I made this when I was 12, uploaded when I was 13, cut me some slack.
 
